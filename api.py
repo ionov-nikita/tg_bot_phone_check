@@ -7,7 +7,7 @@ PHONE_LOOKUP_API = "https://api.veriphone.io/v2/verify"
 
 def get_info(phone_number):
     try:
-        if len(phone_number) != 11:
+        if len(phone_number) not in (11, 12):
             raise Exception
         if phone_number.startswith("+"):
             phone_number = int(phone_number[1:])
