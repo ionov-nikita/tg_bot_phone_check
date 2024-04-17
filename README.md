@@ -14,7 +14,7 @@
 
 1. Склонируйте репозиторий:
  ```ssh
- git@github.com:funnydevelopment/vk_bot_prsttoler.git
+ git@github.com:ionov-nikita/tg_bot_phone_check
  ```
 2. Активируйте виртуальное окружение:
  ```sh
