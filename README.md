@@ -14,10 +14,11 @@
 
 1. Склонируйте репозиторий:
  ```ssh
- git@github.com:funnydevelopment/vk_bot_prsttoler.git
+ git@github.com:ionov-nikita/tg_bot_phone_check
  ```
-2. Активируйте виртуальное окружение:
+2. Создайте и активируйте виртуальное окружение:
  ```sh
+  python3 -m venv venv
   source venv/bin/activate
   ```
 3. Установите зависимости:
