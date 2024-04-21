@@ -4,9 +4,9 @@ import requests
 from dotenv import load_dotenv
 
 
-PHONE_LOOKUP_API = "https://api.veriphone.io/v2/verify"
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
+PHONE_LOOKUP_API = os.getenv("PHONE_LOOKUP_API")
 
 
 def get_info(phone_number):
