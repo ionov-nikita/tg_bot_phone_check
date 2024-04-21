@@ -1,8 +1,12 @@
+import os
+
 import requests
-from config import API_KEY
+from dotenv import load_dotenv
 
 
 PHONE_LOOKUP_API = "https://api.veriphone.io/v2/verify"
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
 
 
 def get_info(phone_number):
